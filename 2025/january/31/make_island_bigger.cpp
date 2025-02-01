@@ -16,7 +16,7 @@ class Solution
         return x >= 0 and x < n and y >= 0 and y < n;
     }
 
-    bool markIsland(vector<vector<int>> &grid, int &island_number, int &n, int x, int y)
+    int markIsland(vector<vector<int>> &grid, int &island_number, int &n, int x, int y)
     {
         grid[x][y] = island_number;
         int count = 1;
