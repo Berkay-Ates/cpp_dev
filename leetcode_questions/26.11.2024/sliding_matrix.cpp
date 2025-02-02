@@ -43,7 +43,7 @@ class Solution
                 {
                     const int x = i + dx;
                     const int y = j + dy;
-                    if (x < 0 || x == m || y < 0 || y == n)
+                    if (x < 0 or x == m || y < 0 || y == n)
                         continue;
                     const int swappedIndex = x * n + y;
                     swap(currentString[zeroIndex], currentString[swappedIndex]);
